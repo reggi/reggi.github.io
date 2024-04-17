@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "lintpkg": "sort-package-json --check",
+    "lintpkg:fix": "sort-package-json"
+  },
+  "devDependencies": {
+    "sort-package-json": "^2.10.0"
+  }
+}
