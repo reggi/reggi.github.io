@@ -1,0 +1,102 @@
+{
+  "profile": {
+    "handle": "reggi",
+    "description": "Templates, tools, and projects connected by the systems they share.",
+    "github": "https://github.com/reggi",
+    "siteRepo": "https://github.com/reggi/reggi.github.io"
+  },
+  "families": [
+    {
+      "id": "tools",
+      "eyebrow": "Browser tools",
+      "name": "HTML tools",
+      "description": "Portable Vite applications built from a shared framework and visual system.",
+      "source": {
+        "name": "tool-template",
+        "description": "A composable framework for portable, accessible, state-driven HTML tools.",
+        "repo": "https://github.com/reggi/tool-template",
+        "socialCard": "social-card.svg",
+        "label": "Template"
+      },
+      "projects": [
+        {
+          "name": "head-2-head-ranking",
+          "description": "Rank a set of choices through direct head-to-head comparisons.",
+          "repo": "https://github.com/reggi/head-2-head-ranking",
+          "site": "https://reggi.github.io/head-2-head-ranking/",
+          "socialCard": "social-card.svg",
+          "label": "Uses template"
+        }
+      ]
+    },
+    {
+      "id": "standalone-sites",
+      "eyebrow": "Independent projects",
+      "name": "Standalone sites",
+      "description": "One-off web projects with their own structure, automation, and deployment.",
+      "items": [
+        {
+          "name": "node-npm-release-map",
+          "description": "Dependency-free dashboard for published, pending, and backported Node.js and npm release combinations.",
+          "repo": "https://github.com/reggi/node-npm-release-map",
+          "site": "https://reggi.github.io/node-npm-release-map/",
+          "screenshot": "https://reggi.github.io/node-npm-release-map/",
+          "label": "Standalone"
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "eyebrow": "Deployment templates",
+      "name": "Railway",
+      "description": "A shared template drives a growing collection of self-hosted Railway deployments.",
+      "source": {
+        "name": "template-railway",
+        "description": "Reusable structure and automation for Railway deployment repositories.",
+        "repo": "https://github.com/reggi/template-railway",
+        "label": "Template"
+      },
+      "projects": [
+        {
+          "name": "railway-memos",
+          "description": "A Railway deployment configuration for Memos.",
+          "repo": "https://github.com/reggi/railway-memos",
+          "label": "Uses template"
+        },
+        {
+          "name": "railway-vikunja",
+          "description": "Self-hosted Vikunja on Railway with PostgreSQL and S3-compatible storage.",
+          "repo": "https://github.com/reggi/railway-vikunja",
+          "label": "Uses template"
+        },
+        {
+          "name": "railway-plausible",
+          "description": "Railway infrastructure for Plausible Community Edition.",
+          "repo": "https://github.com/reggi/railway-plausible",
+          "label": "Uses template"
+        }
+      ]
+    },
+    {
+      "id": "admin",
+      "eyebrow": "Project administration",
+      "name": "Admin",
+      "description": "The shared conventions and source repository used to maintain this collection.",
+      "items": [
+        {
+          "name": "playbooks",
+          "description": "Small, reusable instructions for LLMs and agents working across projects.",
+          "repo": "https://github.com/reggi/playbooks",
+          "label": "Reference"
+        },
+        {
+          "name": "reggi.github.io",
+          "description": "Source, project data, automation, and deployment for this site.",
+          "repo": "https://github.com/reggi/reggi.github.io",
+          "site": "https://reggi.github.io/",
+          "label": "This site"
+        }
+      ]
+    }
+  ]
+}

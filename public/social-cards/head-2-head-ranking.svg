@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f5f5"/>
+  <rect x="72" y="72" width="1056" height="486" rx="24" fill="#fff" stroke="#bbb" stroke-width="2"/>
+  <rect x="120" y="126" width="76" height="76" rx="18" fill="#202020"/>
+  <path d="M140 148h36M140 164h28M140 180h20" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <text x="120" y="286" fill="#1a1a1a" font-family="system-ui,sans-serif" font-size="68" font-weight="700">Head 2 Head Ranking</text>
+  <text x="120" y="350" fill="#666" font-family="system-ui,sans-serif" font-size="30">Head-to-head ranking for any list</text>
+  <path d="M120 420h690" stroke="#ddd" stroke-width="2"/>
+  <text x="120" y="480" fill="#1a1a1a" font-family="ui-monospace,monospace" font-size="25">Choose between pairs. Watch the order sharpen.</text>
+</svg>

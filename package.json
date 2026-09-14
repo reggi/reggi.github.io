@@ -1,17 +1,19 @@
 {
-  "name": "",
+  "name": "reggi-github-home",
+  "version": "1.0.0",
+  "private": true,
   "type": "module",
-  "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "dev": "vite",
+    "build": "vite build",
+    "data:sync": "node scripts/sync-project-data.mjs",
+    "preview": "vite preview",
+    "test": "node --test"
   },
-  "dependencies": {
-    "astro": "^4.6.0",
-    "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.5"
+  "devDependencies": {
+    "vite": "^7.1.5"
+  },
+  "engines": {
+    "node": ">=22"
   }
 }

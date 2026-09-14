@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Templates, tools, and projects by reggi, organized by the repositories that connect them."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://reggi.github.io/" />
+    <meta property="og:title" content="reggi / projects" />
+    <meta
+      property="og:description"
+      content="A directory of related GitHub templates, tools, and projects."
+    />
+    <meta property="og:url" content="https://reggi.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="reggi / projects" />
+    <meta
+      name="twitter:description"
+      content="A directory of related GitHub templates, tools, and projects."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/core/styles.css" />
+    <title>reggi / projects</title>
+    <script>
+      (() => {
+        const preference = localStorage.getItem("reggi-home-theme") || "system";
+        const dark =
+          preference === "dark" ||
+          (preference === "system" && matchMedia("(prefers-color-scheme: dark)").matches);
+        if (dark) document.documentElement.dataset.theme = "dark";
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
+    <div id="app"></div>
+    <script type="module" src="/src/app/main.js"></script>
+  </body>
+</html>

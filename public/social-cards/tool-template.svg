@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f5f5"/>
+  <rect x="72" y="72" width="1056" height="486" rx="24" fill="#fff" stroke="#bbb" stroke-width="2"/>
+  <rect x="120" y="126" width="76" height="76" rx="18" fill="#202020"/>
+  <path d="m148 146-16 18 16 18m20-36 16 18-16 18m-5-42-10 48" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="120" y="286" fill="#1a1a1a" font-family="system-ui,sans-serif" font-size="68" font-weight="700">HTML Tool Framework</text>
+  <text x="120" y="350" fill="#666" font-family="system-ui,sans-serif" font-size="30">Projects · Source · Workspace · State JSON · Commands</text>
+  <path d="M120 420h690" stroke="#ddd" stroke-width="2"/>
+  <text x="120" y="480" fill="#1a1a1a" font-family="ui-monospace,monospace" font-size="25">One state model. Every input channel.</text>
+</svg>
