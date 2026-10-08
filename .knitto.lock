@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "digest": "sha256:6e81ff743ee115123c4074cd749ae8e112c80f77538d35b147d8815f32b5de5a",
+  "digest": "sha256:fb90a103081611585b7d891ac5b19725a1bb35dc537c07e1a812a4a700ba365e",
   "source": {
     "type": "git",
     "url": "https://github.com/reggi/webcard-site.git",
     "path": ".knitto",
-    "ref": "v0.1.3"
+    "ref": "v0.1.4"
   },
   "engine": {
     "package": "knitto",
@@ -15,8 +15,8 @@
     "sourceType": "git",
     "locator": "https://github.com/reggi/webcard-site.git",
     "templatePath": ".knitto",
-    "revision": "dd99d125e20537b78b3af7bb0cd6c0a06bcc22cc"
+    "revision": "df93f42808fe1f380fdacaf638313ceb60cbecd8"
   },
   "templateSchemaVersion": 1,
-  "resolvedAt": "2026-10-08T05:30:35.982Z"
+  "resolvedAt": "2026-10-08T05:37:41.507Z"
 }
