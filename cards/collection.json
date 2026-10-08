@@ -9,6 +9,11 @@
       "addedAt": "2026-10-08T05:33:24.354Z",
       "id": "e1302bb950eb83479344639d16d964fadf49fcd7dd856c70e79b9a6e7d346730",
       "sourceURL": "https://reggi.github.io/journal-calendar/"
+    },
+    {
+      "addedAt": "2026-10-08T06:01:24.221Z",
+      "id": "11cb753d1cea5ddfae68aa03c1ce7b5af6883d5ecc8bbbbe9914b9768f6c3942",
+      "sourceURL": "https://reggi.github.io/node-npm-release-map/"
     }
   ],
   "version": 1
